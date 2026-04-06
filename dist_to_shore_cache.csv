@@ -1,0 +1,321 @@
+ref,species,yearstart,locality,dist_to_shore
+alwis1988a,benthosema suborbitale,1982,tanzania,200018.89733395522
+alwis1988a,diaphus jenseni,1982,tanzania,200018.89733395522
+alwis1988a,triphoturus microchir,1982,tanzania,200018.89733395522
+alwis1988a,benthosema pterotum,1982,tanzania,200018.89733395522
+alwis1988a,diaphus nielseni,1982,tanzania,200018.89733395522
+alwis1988a,diaphus garmani,1982,tanzania,200018.89733395522
+alwis1988a,ceratoscopelus warmingii,1982,tanzania,200018.89733395522
+alwis1988a,diaphus perspicillatus,1982,tanzania,200018.89733395522
+alwis1988a,lampanyctus sp,1982,tanzania,200018.89733395522
+alwis1988a,benthosema fibulatum,1982,tanzania,200018.89733395522
+alwis1988a,myctophum brachygnathum,1982,tanzania,200018.89733395522
+alwis1988a,myctophum obtusirostrum,1982,tanzania,200018.89733395522
+alwis1988a,symbolophorus evermanni,1982,tanzania,200018.89733395522
+alwis1988a,diaphus thiollierei,1982,tanzania,200018.89733395522
+alwis1988a,diaphus watasei,1982,tanzania,200018.89733395522
+alwis1988b,diaphus dumerilii,1981,mauritiania,296309.411741064
+alwis1988b,diaphus taaningi,1981,mauritiania,296309.411741064
+alwis1988b,myctophum affine,1981,mauritiania,296309.411741064
+alwis1988b,myctophum nitidulum,1981,mauritiania,296309.411741064
+applebaum1982,ceratoscopelus warmingii,1979,sargasso sea,1095941.032270382
+applebaum1982,benthosema glaciale,1979,sargasso sea,1095941.032270382
+applebaum1982,bolinichthys indicus,1979,sargasso sea,1095941.032270382
+applebaum1982,diaphus mollis,1979,sargasso sea,1095941.032270382
+applebaum1982,diaphus rafinesquii,1979,sargasso sea,1095941.032270382
+applebaum1982,diaphus sp.,1979,sargasso sea,1095941.032270382
+applebaum1982,hygophum hygomii,1979,sargasso sea,1095941.032270382
+applebaum1982,hygophum taaningi,1979,sargasso sea,1095941.032270382
+applebaum1982,lampanyctus crocodilus,1979,sargasso sea,1095941.032270382
+applebaum1982,lampanyctus cuprarius,1979,sargasso sea,1095941.032270382
+applebaum1982,lampanyctus photonotus,1979,sargasso sea,1095941.032270382
+applebaum1982,lobianchia gemellarii,1979,sargasso sea,1095941.032270382
+applebaum1982,notoscopelus kroyeri,1979,sargasso sea,1095941.032270382
+badouvas2024,benthosema glaciale,2018,mediterranean,12820.774331441035
+badouvas2024,myctophum punctatum,2018,mediterranean,12820.774331441035
+badouvas2024,ceratoscopelus maderensis,2018,mediterranean,12820.774331441035
+badouvas2024,notoscopelus elongatus,2018,mediterranean,12820.774331441035
+baird1975,diaphus taaningi,1972,cariaco trench,38268.95850716339
+battaglia2014,diaphus metopoclampus,2010,mediterranean,17555.268995485276
+battaglia2016,electrona risso,2012,mediterranean,18245.469073991302
+bernal2013,lampanyctus pusillus,2009,mediterranean,32800.01115399246
+bernal2015,benthosema glaciale,2009,mediterranean,32800.01115399246
+bernal2015,lobianchia dofleini,2009,mediterranean,32800.01115399246
+bernal2015,hygophum hygomii,2009,mediterranean,32800.01115399246
+bernal2015,hygophum benoiti,2009,mediterranean,32800.01115399246
+bernal2015,ceratoscopelus maderensis,2009,mediterranean,32800.01115399246
+bernal2015,lampanyctus pusillus,2009,mediterranean,32800.01115399246
+bernal2015,myctophum punctatum,2009,mediterranean,32800.01115399246
+bernal2015,notoscopelus elongatus,2009,mediterranean,32800.01115399246
+bernal2015,lampanyctus crocodilus,2009,mediterranean,32800.01115399246
+bernal2020,ceratoscopelus warmingii,2015,indonesia,1768098.1747436284
+bernal2020,symbolophorus evermanni,2015,indonesia,1768098.1747436284
+bernal2020,diaphus effulgens,2015,indonesia,1768098.1747436284
+bosley2004,diaphus theta,2001,us,37751.69842818159
+bosley2004,stenobrachius leucopsarus,2001,us pacific,37751.69842818159
+cailliet1990,stenobrachius leucopsarus,1964,us,187541.4196935883
+carlo1982,hygophum benoiti,1972,mediterranean,18245.469073991302
+carlo1982,myctophum punctatum,1972,mediterranean,18245.469073991302
+chen2022,diaphus splendidus,2020,south china sea,143898.49346695942
+clarke1978,notolychnus valdiviae,1973,hawaii,18647.678197663554
+clarke1978,benthosema suborbitale,1973,hawaii,18647.678197663554
+clarke1978,hygophum proximum,1973,hawaii,18647.678197663554
+clarke1978,triphoturus nigrescens,1973,hawaii,18647.678197663554
+clarke1978,diaphus schmidti,1973,hawaii,18647.678197663554
+clarke1978,lampanyctus steinbecki,1973,hawaii,18647.678197663554
+clarke1978,bolinichthys longipes,1973,hawaii,18647.678197663554
+clarke1978,ceratoscopelus warmingii,1973,hawaii,18647.678197663554
+clarke1978,lampanyctus nobilis,1973,hawaii,18647.678197663554
+clarke1978,lampanyctus niger,1973,hawaii,18647.678197663554
+clarke1980,diogenichthys atlanticus,1973,hawaii,17276.82853376355
+clarke1980,notolychnus valdiviae,1973,hawaii,17276.82853376355
+clarke1980,benthosema suborbitale,1973,hawaii,17276.82853376355
+clarke1980,triphoturus nigrescens,1973,hawaii,17276.82853376355
+clarke1980,diaphus schmidti,1973,hawaii,17276.82853376355
+clarke1980,diaphus fragilis,1973,hawaii,17276.82853376355
+clarke1980,bolinichthys longipes,1973,hawaii,17276.82853376355
+clarke1980,diaphus trachops,1973,hawaii,17276.82853376355
+clarke1980,lampanyctus steinbecki,1973,hawaii,17276.82853376355
+clarke1980,diaphus perspicillatus,1973,hawaii,17276.82853376355
+clarke1980,ceratoscopelus warmingii,1973,hawaii,17276.82853376355
+clarke1980,lampanyctus nobilis,1973,hawaii,17276.82853376355
+cohen2021,myctophum asperum,2018,australia,69319.60967366354
+collard1970,myctophum spinosum,1963,NA,233111.41336115613
+collard1970,stenobrachius leucopsarus,1963,NA,17576.661083621806
+collard1970,parvilux ingens,1963,temperate pacific,156822.00857567636
+collard1970,ceratoscopelus townsendi,1963,tropical pacific,1885199.1738523485
+collard1970,diaphus coeruleus,1963,tropical pacific,233111.41336115613
+collard1970,diaphus elucens,1963,tropical pacific,233111.41336115613
+collard1970,diaphus sp.,1963,tropical pacific,233111.41336115613
+collard1970,diaphus theta,1963,temperate pacific,241177.40091043923
+collard1970,diogenichthys laternatus,1963,temperate pacific,37912.37727950292
+collard1970,protomyctophum anderssoni,1963,southern ocean,1198388.568228946
+collard1970,lampanyctus australis,1963,NA,31618.18542994467
+collard1970,lampanyctus macropterus,1963,tropical pacific,233111.41336115613
+collard1970,lampanyctus regalis,1963,temperate pacific,38235.4553311919
+collard1970,lampanyctus ritteri,1963,NA,50393.68735041729
+collard1970,myctophum aurolaternatum,1963,tropical pacific,233111.41336115613
+collard1970,symbolophorus californiensis,1963,temperate pacific,142720.8709140194
+collard1970,tarletonbeania crenularis,1963,temperate pacific,50393.68735041729
+collard1970,triphoturus mexicanus,1963,NA,4423.554110726312
+contreras2019,diaphus vanhoeffeni,2015,brazil,713326.0634402985
+contreras2019,myctophum affine,2015,brazil,713326.0634402985
+contreras2019,hygophum macrochir,2015,brazil,713326.0634402985
+duan2024,electrona antarctica,2021,amundsen sea,554059.1147253357
+eduardo2021,diaphus brachycephalus,2017,brazil,139569.3887553
+eduardo2021,hygophum taaningi,2017,brazil,139569.3887553
+eduardo2021,diaphus mollis,2017,brazil,139569.3887553
+eduardo2021,lepidophanes guentheri,2017,brazil,139569.3887553
+eduardo2021,diaphus perspicillatus,2017,brazil,139569.3887553
+eduardo2021,electrona risso,2017,brazil,139569.3887553
+eduardo2021,diaphus fragilis,2017,brazil,139569.3887553
+eduardo2021,diaphus dumerilii,2017,brazil,139569.3887553
+eduardo2021,lampanyctus nobilis,2017,brazil,139569.3887553
+fanelli2014,lampanyctus crocodilus,2007,mediterranean,74233.16608858395
+gaskett2001,electrona antarctica,1999,australia,113761.98756186452
+gaskett2001,electrona carlsbergi,1999,australia,113761.98756186452
+gaskett2001,electrona subaspera,1999,australia,113761.98756186452
+gaskett2001,gymnoscopelus bolini,1999,australia,113761.98756186452
+gaskett2001,gymnoscopelus braueri,1999,australia pacific,113761.98756186452
+gaskett2001,gymnoscopelus fraseri,1999,australia pacific,113761.98756186452
+gaskett2001,gymnoscopelus microlampas,1999,australia,113761.98756186452
+gaskett2001,gymnoscopelus nicholsi,1999,australia pacific,113761.98756186452
+gaskett2001,gymnoscopelus piabilis,1999,australia pacific,113761.98756186452
+gaskett2001,kreffichthys anderssoni,1999,australia pacific,113761.98756186452
+gaskett2001,lampanyctus achirus,1999,australia pacific,113761.98756186452
+gaskett2001,protomyctophum andriashevi,1999,australia pacific,113761.98756186452
+gaskett2001,protomyctophum bolini,1999,australia pacific,113761.98756186452
+gaskett2001,protomyctophum parallelum,1999,australia pacific,113761.98756186452
+gaskett2001,protomyctophum tenisoni,1999,australia pacific,113761.98756186452
+gong2024,diaphus brachycephalus,2015,south china sea,538367.8954975671
+gong2024,ceratoscopelus warmingii,2015,south china sea,538367.8954975671
+halliday2015,ceratoscopelus maderensis,1988,slope sea,293136.57187758497
+halliday2015,benthosema glaciale,1988,slope sea,293136.57187758497
+hopkins1992,centrobranchus nigroocellatus,1984,gulf of mexico,305252.4213936145
+hopkins1992,benthosema suborbitale,1984,gulf of mexico,305252.4213936145
+hopkins1992,bolinichthys photothorax,1984,gulf of mexico,305252.4213936145
+hopkins1992,ceratoscopelus warmingii,1984,gulf of mexico,305252.4213936145
+hopkins1992,diaphus dumerilii,1984,gulf of mexico,305252.4213936145
+hopkins1992,diaphus lucidus,1984,gulf of mexico,305252.4213936145
+hopkins1992,diaphus mollis,1984,gulf of mexico,305252.4213936145
+hopkins1992,diaphus perspicillatus,1984,gulf of mexico,305252.4213936145
+hopkins1992,diaphus splendidus,1984,gulf of mexico,305252.4213936145
+hopkins1992,diaphus taaningi,1984,gulf of mexico,305252.4213936145
+hopkins1992,hygophum hygomii,1984,gulf of mexico,305252.4213936145
+hopkins1992,lampanyctus alatus,1984,gulf of mexico,305252.4213936145
+hopkins1992,lepidophanes guentheri,1984,gulf of mexico,305252.4213936145
+hopkins1992,lobianchia gemellarii,1984,gulf of mexico,305252.4213936145
+hopkins1992,myctophum affine,1984,gulf of mexico,305252.4213936145
+hopkins1992,notolychnus valdiviae,1984,gulf of mexico,305252.4213936145
+hopkins1992,notoscopelus resplendens,1984,gulf of mexico,305252.4213936145
+hopkins2013,lampanyctus alatus,1970,gulf of mexico,305252.4213936145
+hudson2014,protomyctophum arcticum,2004,mid atlantic ridge,1162409.0546117953
+hudson2014,hygophum hygomii,2004,mid atlantic ridge,1162409.0546117953
+hudson2014,benthosema glaciale,2004,mid atlantic ridge,1162409.0546117953
+kawaguchi1982,protomyctophum arcticum,1973,ireland,149865.00513594912
+kawaguchi1982,benthosema glaciale,1973,ireland,149865.00513594912
+kawaguchi1982,lampanyctus macdonaldi,1973,ireland,149865.00513594912
+kinzer1985,notolychnus valdiviae,1974,tropical atlantic,1257694.6317480188
+kinzer1985,diaphus brachycephalus,1974,tropical atlantic,1257694.6317480188
+kinzer1985,ceratoscopelus warmingii,1974,NA,1257694.6317480188
+kinzer1985,diaphus leutkeni,1974,tropical atlantic,1257694.6317480188
+kinzer1985,lampanyctus alatus,1974,NA,1257694.6317480188
+kinzer1985,diaphus dumerilii,1974,tropical atlantic,1257694.6317480188
+kinzer1985,lepidophanes guentheri,1974,tropical atlantic,1257694.6317480188
+kinzer1993,diaphus arabicus,1987,arabian sea,449170.9595349735
+kinzer1993,benthosema pterotum,1987,arabian sea,449170.9595349735
+kinzer1993,hygophum proximum,1987,arabian sea,449170.9595349735
+kinzer1993,diaphus thriollierei,1987,arabian sea,449170.9595349735
+kinzer1993,benthosema fibulatum,1987,arabian sea,449170.9595349735
+kinzer1993,bolinichthys longipes,1987,arabian sea,449170.9595349735
+knutsen2023,benthosema glaciale,2013,norway,217399.07847852496
+kosenok2006,diaphus theta,2001,NA,490055.5419997117
+kubota1980,benthosema pterotum,1969,japan,14698.318424796485
+kubota1980,diaphus suborbitalis,1969,japan,14698.318424796485
+kubota1980,myctophum nitidulum,1969,japan,14698.318424796485
+kubota1980,myctophum orientale,1969,japan,14698.318424796485
+mccrone1981,diaphus theta,1973,NA,348237.56771725777
+mccrone1981,stenobrachius leucopsarus,1973,NA,348237.56771725777
+merrett1974,notolychnus valdiviae,1972,morrocco,503638.74680802674
+merrett1974,lobianchia dofleini,1972,morrocco,503638.74680802674
+merrett1974,lampanyctus cuprarius,1972,morrocco,503638.74680802674
+nirazuka2021,electrona antarctica,2017,wilkes land,282184.1616077289
+olivar2019,diogenichthys atlanticus,NA,brazil,761094.806818384
+olivar2019,notolychnus valdiviae,NA,brazil,761094.806818384
+olivar2019,benthosema suborbitale,NA,brazil,761094.806818384
+olivar2019,lobianchia dofleini,NA,brazil,761094.806818384
+olivar2019,benthosema glaciale,NA,brazil,761094.806818384
+olivar2019,lampanyctus pusillus,NA,brazil,761094.806818384
+olivar2019,diaphus vanhoeffeni,NA,brazil,761094.806818384
+olivar2019,hygophum macrochir,NA,brazil,761094.806818384
+olivar2019,notoscopelus resplendens,NA,brazil,761094.806818384
+olivar2019,diaphus holti,NA,brazil,761094.806818384
+olivar2019,lampanyctus nobilis,NA,brazil,761094.806818384
+olivar2019,diaphus brachycephalus,NA,brazil,761094.806818384
+olivar2019,lampanyctus alatus,NA,brazil,761094.806818384
+olivar2019,lepidophanes guentheri,NA,brazil,761094.806818384
+olivar2019,diaphus dumerilii,NA,brazil,761094.806818384
+olivar2019,diaphus mollis,NA,brazil,761094.806818384
+olivar2019,ceratoscopelus warmingii,NA,brazil,761094.806818384
+olivar2019,diaphus rafnesquii,NA,brazil,761094.806818384
+olivar2019,myctophum punctatum,NA,brazil,761094.806818384
+olivar2019,myctophum nitidulum,NA,brazil,761094.806818384
+pakhomov1996,bolinichthys supralateralis,1994,southern ocean,1171200.9545351148
+pakhomov1996,hygophum hygomii,1994,southern ocean,1171200.9545351148
+pakhomov1996,diogenichthys atlanticus,1994,southern ocean,1171200.9545351148
+pakhomov1996,electrona carlsbergi,1994,southern ocean,1171200.9545351148
+pakhomov1996,scopelopsis multipunctatus,1994,southern ocean,1171200.9545351148
+pakhomov1996,lampadena pontifex,1994,southern ocean,1171200.9545351148
+pakhomov1996,symbolophorus evermanni,1994,southern ocean,1171200.9545351148
+pakhomov1996,symbolophorus barnardi,1994,southern ocean,1171200.9545351148
+pakhomov1996,benthosema suborbitale,1994,southern ocean,1171200.9545351148
+pakhomov1996,lampanyctus alatus,1994,southern ocean,1171200.9545351148
+pakhomov1996,gymnoscopelus microlampas,1994,southern ocean,1171200.9545351148
+pakhomov1996,lampanyctus pusillus,1994,southern ocean,1171200.9545351148
+pakhomov1996,diaphus leutkeni,1994,southern ocean,1171200.9545351148
+pakhomov1996,protomyctophum luciferum,1994,southern ocean,1171200.9545351148
+pakhomov1996,diaphus meadi,1994,southern ocean,1171200.9545351148
+pakhomov1996,lampanyctus australis,1994,southern ocean,1171200.9545351148
+pakhomov1996,lobianchia dofleini,1994,southern ocean,1171200.9545351148
+pakhomov1996,hygophum hanseni,1994,southern ocean,1171200.9545351148
+pakhomov1996,electrona subaspera,1994,southern ocean,1171200.9545351148
+pakhomov1996,diaphus hudsoni,1994,southern ocean,1171200.9545351148
+pakhomov1996,protomyctophum andriashevi,1994,southern ocean,1171200.9545351148
+pakhomov1996,kreffichthys anderssoni,1994,southern ocean,1171200.9545351148
+pakhomov1996,protomyctophum normani,1994,southern ocean,1171200.9545351148
+pakhomov1996,metelectrona herwigi,1994,southern ocean,1171200.9545351148
+pakhomov1996,notoscopelus resplendens,1994,southern ocean,1171200.9545351148
+pakhomov1996,protomyctophum bolini,1994,southern ocean,1171200.9545351148
+pakhomov1996,diaphus taaningi,1994,southern ocean,1171200.9545351148
+pakhomov1996,electrona paucirastra,1994,southern ocean,1171200.9545351148
+pakhomov1996,diaphus effulgens,1994,southern ocean,1171200.9545351148
+pakhomov1996,ceratoscopelus warmingii,1994,southern ocean,1171200.9545351148
+pakhomov1996,protomyctophum choriodon,1994,southern ocean,1171200.9545351148
+pakhomov1996,electrona antarctica,1994,southern ocean,1171200.9545351148
+pakhomov1996,symbolophorus boops,1994,southern ocean,1171200.9545351148
+pakhomov1996,gymnoscopelus bolini,1994,southern ocean,1171200.9545351148
+pakhomov1996,gymnoscopelus nicholsi,1994,southern ocean,1171200.9545351148
+pakhomov1996,gymnoscopelus opisthopterus,1994,southern ocean,1171200.9545351148
+pearcy1979,stenobrachius leucopsarus,1972,us,121020.4021826331
+podraxhanskaya1993,protomyctophum arcticum,1983,canada,647494.0581340735
+podraxhanskaya1993,hygophum benoiti,1983,canada,647494.0581340735
+podraxhanskaya1993,benthosema glaciale,1983,canada,647494.0581340735
+podraxhanskaya1993,diaphus rafinesquii,1983,canada,647494.0581340735
+podraxhanskaya1993,ceratoscopelus maderennsis,1983,canada,647494.0581340735
+podraxhanskaya1993,electrona risso,1983,canada,647494.0581340735
+podraxhanskaya1993,myctophum punctatum,1983,canada,647494.0581340735
+podraxhanskaya1993,notoscopelus bolini,1983,canada,647494.0581340735
+podraxhanskaya1993,lobianchia dofleini,1983,canada,647494.0581340735
+podraxhanskaya1993,symbolophorus veranyi,1983,canada,647494.0581340735
+podraxhanskaya1993,notoscopelus elongatus,1983,canada,647494.0581340735
+pusch2004,lobianchia dofleini,1998,morrocco,868674.7465182008
+pusch2004,hygophum hygomii,1998,morrocco,868674.7465182008
+pusch2004,ceratoscopelus warmingii,1998,morrocco,830317.4054208987
+riaz2020,kreffichthys anderssoni,2016,kerguelen axis,446880.950064969
+riaz2020,electrona antarctica,2016,kerguelen axis,446880.950064969
+riaz2020,gymnoscopelus braueri,2016,kerguelen axis,446880.950064969
+rodriguez2005,diogenichthys laternatus,1997,chile,89682.70665172895
+rodriguez2005,triphoturus mexicanus,1997,chile,89682.70665172895
+ruiz2024,electrona antarctica,2006,scotia sea,168962.63224694674
+sameoto1988,benthosema glaciale,1977,canada,106132.12837120332
+sassa 2023,diaphus fulgens,2008,south china sea,165663.44367579426
+sassa2019,symbolophorus californiensis,2003,japan,175456.1989470985
+sassa2020,myctophum orientale,2003,japan,158450.76078196245
+saunders2014,electrona carlsbergi,2006,southern ocean,463910.10995980387
+saunders2014,electrona antarctica,2006,southern ocean,463910.10995980387
+saunders2015,protomyctophum tenisoni,2006,scotia sea,463910.10995980387
+saunders2015,protomyctophum bolini,2006,scotia sea,463910.10995980387
+saunders2015,protomyctophum choriodon,2006,scotia sea,463910.10995980387
+saunders2018,protomyctophum tenisoni,2006,scotia sea,193928.17205768343
+saunders2018,protomyctophum bolini,2006,scotia sea,193928.17205768343
+saunders2018,kreffichthys anderssoni,2006,scotia sea,193928.17205768343
+saunders2018,protomyctophum choriodon,2006,scotia sea,193928.17205768343
+saunders2018,electrona carlsbergi,2006,scotia sea,193928.17205768343
+saunders2018,electrona antarctica,2006,scotia sea,193928.17205768343
+saunders2018,gymnoscopelus fraseri,2006,scotia sea,193928.17205768343
+saunders2018,gymnoscopelus braueri,2006,scotia sea,193928.17205768343
+saunders2018,gymnoscopelus nicholsi,2006,scotia sea,193928.17205768343
+saunders2018,nannobrachium achirus,2006,scotia sea,193928.17205768343
+stefanescu1992,lampanyctus crocodilus,1988,mediterranean,86940.99771770301
+suntsov2008,diaphus theta,2006,us,76513.61754395148
+suntsov2008,stenobrachius leucopsarus,2006,us,76513.61754395148
+suntsov2008,tarletonbeania crenularis,2006,us,76513.61754395148
+takagi2009,myctophum asperum,2002,japan,800950.3809094906
+takagi2009,symbolophorus californiensis,2002,japan,800950.3809094906
+takagi2009,ceratoscopelus warmingii,2002,japan,800950.3809094906
+tanaka2013,diaphus garmani,2003,japan,69266.38808733918
+tanaka2013,diaphus chrysorhynchus,2003,japan,69266.38808733918
+turco2024,lobianchia gemellarii,2023,mediterranean,7326.992128913709
+tyler1975,diaphus theta,1963,us,10666.447548094813
+tyler1975,tarletonbeania crenularis,1963,us,10666.447548094813
+tyler1975,stenobrachius leucopsarus,1963,us,10666.447548094813
+uchikawa2008,lampanyctus jordani,1996,japan,42653.91948822847
+vannoord2013,centrobranchus andreae,2007,marianas,28349.461139581053
+vannoord2013,myctophum aurolaternatum,2007,marianas,28349.461139581053
+vannoord2013,myctophum lychnobium,2007,marianas,28349.461139581053
+vannoord2013,myctophum nitidulum,2007,marianas,28349.461139581053
+vannoord2013,symbolophorus evermanni,2007,marianas,28349.461139581053
+vannoord2016,gonichthys tenuiculus,2006,pacific,2040251.4991253216
+vannoord2016,myctophum nitidulum,2006,pacific,2040251.4991253216
+vannoord2016,symbolophorus reversus,2006,pacific,2040251.4991253216
+vasiliadis2024,electrona antarctica,2006,scotia sea,229975.83606716915
+watanabe2003,myctophum nitidulum,1961,japan,155386.28239608314
+williams1985,kreffichthys anderssoni,1981,antarctica,673822.7774031146
+williams1985,electrona antarctica,1981,antarctica,673822.7774031146
+williams1985,gymnoscopelus braueri,1981,antarctica,673822.7774031146
+williams1985,gymnoscopelus nicholsi,1981,antarctica,673822.7774031146
+williams2001,hygophum hanseni,1992,tasmania,70356.34337978199
+williams2001,diaphus danae,1992,tasmania,70356.34337978199
+williams2001,lampanyctus australis,1992,tasmania,70356.34337978199
+woodstock2020,benthosema suborbitale,2010,gulf of mexico,114057.8823701083
+woodstock2020,ceratoscopelus warmingii,2010,gulf of mexico,114057.8823701083
+woodstock2020,diaphus mollis,2010,gulf of mexico,114057.8823701083
+woodstock2020,lampanyctus alatus,2010,gulf of mexico,114057.8823701083
+woodstock2020,diaphus dumerilii,2010,gulf of mexico,114057.8823701083
+woodstock2020,lepidophanes guentheri,2010,gulf of mexico,114057.8823701083
+woodstock2020,diaphus lucidus,2010,gulf of mexico,114057.8823701083
+young1986,lampanyctodes hectoris,1984,tasmania,24247.033923406794
+young1986,diaphus danae,1984,tasmania,24247.033923406794
+zavala2019,diogenichthys laternatus,2015,chile,2286312.5405708677
+zavala2019,diogenichthys atlanticus,2015,chile,2286312.5405708677
+zhang2024,diaphus watasei,2021,east china sea,207951.19310203838
