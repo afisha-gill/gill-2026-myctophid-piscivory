@@ -416,13 +416,6 @@ get_r2 <- function(model) {
   sprintf("%.2f [%.2f, %.2f]", r2[1, "Estimate"], r2[1, "Q2.5"], r2[1, "Q97.5"])
 }
 
-## Helper: save flextable to Word ----------------------------------------------
-save_fig <- function(name, plot, w = 180, h = 120) {
-  ggsave(paste0("figures/", name, ".pdf"),  plot,
-         width = w, height = h, units = "mm")
-  ggsave(paste0("figures/", name, ".tiff"), plot,
-         width = w, height = h, units = "mm", dpi = 600)
-}
 
 ## Prior sensitivity table -----------------------------------------------------
 supp_table_sensitivity <- flextable(sensitivity_df) %>%
@@ -629,17 +622,6 @@ message("Tables written to tables/piscivory_tables.docx")
 # SECTION 4B: RESULTS — FIGURES##################################################
 # 
 
-## save_fig() ------------------------------------------------------------------
-# Saves a ggplot object as both PDF and TIFF (600 dpi).
-# w and h are in millimetres. Default width = 180 mm (full page width).
-
-save_fig <- function(name, plot, w = 180, h = 120) {
-  ggsave(paste0("figures/", name, ".pdf"),  plot,
-         width = w, height = h, units = "mm")
-  ggsave(paste0("figures/", name, ".tiff"), plot,
-         width = w, height = h, units = "mm", dpi = 600)
-}
-
 ## Figure 1 — Global distribution map -----------------------------------------
 
 diet_map <- diet %>%
@@ -664,13 +646,12 @@ Figure1 <- ggplot() +
     linewidth = 0.3
   ) +
   geom_point(
-    data = diet_map,
+    data = diet_map %>% arrange (desc(n_total)),
     aes(x = longmid, y = latmid,
         size = n_total,
         fill = prop_piscivory),
     shape = 21,
-    color = "grey30",
-    alpha = 0.85
+    color = "grey30"
   ) +
   scale_fill_viridis_c(
     option = "plasma",
@@ -702,7 +683,7 @@ Figure1 <- ggplot() +
     size = guide_legend(order = 2, override.aes = list(fill = "grey50"))
   )
 
-save_fig("Figure_1", Figure1, h = 100)
+ggsave("Figure1.png", width = 9, height = 7, dpi = 600)
 
 ## Figure 2 — Observations by genus (A) and season (B) ------------------------
 
@@ -769,8 +750,10 @@ Figure2b <- ggplot(diet_season, aes(x = season, fill = fish)) +
     plot.tag     = element_text(size = 18, face = "bold")
   )
 
-save_fig("Figure_2a", Figure2a, w = 180, h = 120)
-save_fig("Figure_2b", Figure2b, w = 120, h = 100)
+# Combine the plots using patchwork
+Figure2a + Figure2b + plot_layout(ncol = 1, heights = c(2, 1))
+
+ggsave("Figure2.png", width = 13, height = 8, dpi = 600)
 
 ## Figure 3 — Size ranges by genus --------------------------------------------
 
@@ -804,8 +787,9 @@ Figure3 <- ggplot(genus_summary,
     axis.text.y  = element_text(face = "italic", size = 13),
     axis.title.x = element_text(size = 14)
   )
+Figure3
 
-save_fig("Figure_3", Figure3, w = 140, h = 180)
+ggsave("Figure3.png", width = 6, height = 6, dpi = 600)
 
 ## Compute conditional effects (shared by Figures 4 & 5) ----------------------
 # Computed once here to avoid the expensive call being repeated for each figure.
@@ -875,8 +859,9 @@ Figure4 <- ggplot(df_heatmap_trimmed, aes(x = sizez, y = genus_label)) +
     legend.text  = element_text(size = 11),
     panel.grid   = element_blank()
   )
+Figure4
 
-save_fig("Figure_4", Figure4, w = 180, h = 200)
+ggsave("Figure4.png", width = 8, height = 7, dpi = 600)
 
 ## Figure 5 — Predicted probability curves by genus ---------------------------
 
@@ -901,7 +886,7 @@ Figure5 <- ggplot(ce_size_genus_main, aes(x = size_actual, y = estimate__)) +
   geom_line(color = "black", linewidth = 1) +
   geom_ribbon(aes(ymin = lower__, ymax = upper__),
               fill = "black", alpha = 0.2) +
-  facet_wrap(~genusconfirmed, scales = "free_x", ncol = 3) +
+  facet_wrap(~genusconfirmed, scales = "free_x", ncol = 4) +
   labs(
     x = "Body size (mm)",
     y = "Predicted probability of piscivory"
@@ -911,47 +896,9 @@ Figure5 <- ggplot(ce_size_genus_main, aes(x = size_actual, y = estimate__)) +
     strip.text       = element_text(face = "italic", size = 14),
     strip.background = element_blank()
   )
+Figure5
 
-save_fig("Figure_5", Figure5, w = 180, h = 240)
-
-## Figure 6 — Forest plot (genus main-effect ORs) -----------------------------
-
-forest_df <- fe_tidy %>%
-  filter(
-    !str_detect(Parameter, "Intercept"),
-    !str_detect(Parameter, "sizez:")      # genus main effects only; not interaction terms
-  ) %>%
-  mutate(
-    Parameter_clean = fct_reorder(Parameter_clean, OR),
-    Credible        = ifelse(OR_lower > 1 | OR_upper < 1, "yes", "no")
-  )
-
-Figure6 <- ggplot(forest_df,
-                  aes(x = OR, y = Parameter_clean, colour = Credible)) +
-  geom_vline(xintercept = 1, linetype = "dashed",
-             colour = "grey50", linewidth = 0.5) +
-  geom_errorbarh(aes(xmin = OR_lower, xmax = OR_upper),
-                 height = 0.25, linewidth = 0.5) +
-  geom_point(size = 2) +
-  scale_colour_manual(
-    values = c("yes" = "#E69F00", "no" = "grey40"),
-    labels = c("yes" = "Credible (95% CrI excludes 1.0)",
-               "no"  = "Not credible"),
-    name   = NULL
-  ) +
-  labs(
-    x = "Odds ratio (relative to Diaphus at mean body size)",
-    y = NULL
-  ) +
-  theme_classic(base_size = 10) +
-  theme(
-    axis.text.y        = element_text(face = "italic"),
-    legend.position    = "bottom",
-    panel.grid.major.x = element_line(colour = "grey90", linewidth = 0.3)
-  )
-
-# Scale height with number of genera so labels are never cramped
-save_fig("Figure_6", Figure6, h = max(140, nrow(forest_df) * 7))
+ggsave("Figure5.png", width = 9, height = 7, dpi = 600)
 
 ## Supplementary Figure 2 — Posterior predictive check ------------------------
 # type = "bars" is appropriate for binary (Bernoulli) outcomes, showing the
