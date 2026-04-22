@@ -1,4 +1,4 @@
-# A global meta-analysis of piscivory among lanternfish (Myctophidae)
+# Widespread piscivory in lanternfishes (Myctophidae) revealed by meta-analysis
  
 **Authors:** Alisha M. Gill, Stephen E. Swearer, Stephen R. Wing, Jeffrey S. Shima
 **Journal:** Fish and Fisheries | **Year:** 2026
